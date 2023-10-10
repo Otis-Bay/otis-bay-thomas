@@ -90,7 +90,7 @@ function Letter({ geometry, material, position, index, vec = new THREE.Vector3()
 }
 
 export function OtisBayLogo(props) {
-  const { nodes } = useGLTF("http://localhost:5173/otis-bay.glb");
+  const { nodes } = useGLTF("https://tangerine-zabaione-ddfb5d.netlify.app/otis-bay.glb");
   const { color1, color2 } = useControls({
     color1: "#41F4D5",
     color2: "#9069F8",
